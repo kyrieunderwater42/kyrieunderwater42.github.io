@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <!-- title -->
+
+
+
+
+<!-- keywords -->
+
+
+
+
+<head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="author" content="kyrie">
+    <meta name="renderer" content="webkit">
+    <meta name="copyright" content="kyrie">
+    
+    <meta name="keywords" content="hexo,hexo-theme,hexo-blog">
+    
+    <meta name="description" content="音乐和爱战胜全宇宙">
+    <meta name="description" content="挖个坑，有空来填。 一「山被表现为一种极度瑰丽而又危险的东西，它被看作是一种宏大的力。它既保我们确认自己的存在，又鼓励我们从自我中逃脱，逃向勇气和死亡。」 很少对外表现出积极进取的心态，常常自诩「废人」，对事物抱有消极心态，同时用积极态度鼓舞自己，是我将事情做好的方法论。 what a life2019.3.23 二   爱、死亡和机器人（LDR)评价什么从来是我最不擅长的一类，但与作者的单向沟通">
+<meta property="og:type" content="article">
+<meta property="og:title" content="智齿、「爱死机」、「大川端」和一些迷思">
+<meta property="og:url" content="https://kyrieunderwater42.github.io/2019/08/11/挖个坑有空填/index.html">
+<meta property="og:site_name" content="Whiplash">
+<meta property="og:description" content="挖个坑，有空来填。 一「山被表现为一种极度瑰丽而又危险的东西，它被看作是一种宏大的力。它既保我们确认自己的存在，又鼓励我们从自我中逃脱，逃向勇气和死亡。」 很少对外表现出积极进取的心态，常常自诩「废人」，对事物抱有消极心态，同时用积极态度鼓舞自己，是我将事情做好的方法论。 what a life2019.3.23 二   爱、死亡和机器人（LDR)评价什么从来是我最不擅长的一类，但与作者的单向沟通">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-08-10T18:26:43.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="智齿、「爱死机」、「大川端」和一些迷思">
+<meta name="twitter:description" content="挖个坑，有空来填。 一「山被表现为一种极度瑰丽而又危险的东西，它被看作是一种宏大的力。它既保我们确认自己的存在，又鼓励我们从自我中逃脱，逃向勇气和死亡。」 很少对外表现出积极进取的心态，常常自诩「废人」，对事物抱有消极心态，同时用积极态度鼓舞自己，是我将事情做好的方法论。 what a life2019.3.23 二   爱、死亡和机器人（LDR)评价什么从来是我最不擅长的一类，但与作者的单向沟通">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>智齿、「爱死机」、「大川端」和一些迷思 · fi3ework&#39;s Studio</title>
+    <style type="text/css">
+    @font-face {
+        font-family: 'Oswald-Regular';
+        src: url("/font/Oswald-Regular.ttf");
+    }
+
+    body {
+        margin: 0;
+    }
+
+    header,
+    footer,
+    .back-top,
+    .sidebar,
+    .container,
+    .site-intro-meta,
+    .toc-wrapper {
+        display: none;
+    }
+
+    .site-intro {
+        position: relative;
+        z-index: 3;
+        width: 100%;
+        /* height: 50vh; */
+        overflow: hidden;
+    }
+
+    .site-intro-placeholder {
+        position: absolute;
+        z-index: -2;
+        top: 0;
+        left: 0;
+        width: calc(100% + 300px);
+        height: 100%;
+        background: repeating-linear-gradient(-45deg, #444 0, #444 80px, #333 80px, #333 160px);
+        background-position: center center;
+        transform: translate3d(-226px, 0, 0);
+        animation: gradient-move 2.5s ease-out 0s infinite;
+    }
+
+    @keyframes gradient-move {
+        0% {
+            transform: translate3d(-226px, 0, 0);
+        }
+        100% {
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+</style>
+
+    <link rel="preload" href="/css/style.css?v=20180824" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" href="/css/mobile.css?v=20180824" media="(max-width: 980px)">
+    
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    
+    <!-- /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+/* This file is meant as a standalone workflow for
+- testing support for link[rel=preload]
+- enabling async CSS loading in browsers that do not support rel=preload
+- applying rel preload css once loaded, whether supported or not.
+*/ -->
+<script>
+(function( w ){
+	"use strict";
+	// rel=preload support test
+	if( !w.loadCSS ){
+		w.loadCSS = function(){};
+	}
+	// define on the loadCSS obj
+	var rp = loadCSS.relpreload = {};
+	// rel=preload feature support test
+	// runs once and returns a function for compat purposes
+	rp.support = (function(){
+		var ret;
+		try {
+			ret = w.document.createElement( "link" ).relList.supports( "preload" );
+		} catch (e) {
+			ret = false;
+		}
+		return function(){
+			return ret;
+		};
+	})();
+
+	// if preload isn't supported, get an asynchronous load by using a non-matching media attribute
+	// then change that media back to its intended value on load
+	rp.bindMediaToggle = function( link ){
+		// remember existing media attr for ultimate state, or default to 'all'
+		var finalMedia = link.media || "all";
+
+		function enableStylesheet(){
+			link.media = finalMedia;
+		}
+
+		// bind load handlers to enable media
+		if( link.addEventListener ){
+			link.addEventListener( "load", enableStylesheet );
+		} else if( link.attachEvent ){
+			link.attachEvent( "onload", enableStylesheet );
+		}
+
+		// Set rel and non-applicable media type to start an async request
+		// note: timeout allows this to happen async to let rendering continue in IE
+		setTimeout(function(){
+			link.rel = "stylesheet";
+			link.media = "only x";
+		});
+		// also enable media after 3 seconds,
+		// which will catch very old browsers (android 2.x, old firefox) that don't support onload on link
+		setTimeout( enableStylesheet, 3000 );
+	};
+
+	// loop through link elements in DOM
+	rp.poly = function(){
+		// double check this to prevent external calls from running
+		if( rp.support() ){
+			return;
+		}
+		var links = w.document.getElementsByTagName( "link" );
+		for( var i = 0; i < links.length; i++ ){
+			var link = links[ i ];
+			// qualify links to those with rel=preload and as=style attrs
+			if( link.rel === "preload" && link.getAttribute( "as" ) === "style" && !link.getAttribute( "data-loadcss" ) ){
+				// prevent rerunning on link
+				link.setAttribute( "data-loadcss", true );
+				// bind listeners to toggle media back
+				rp.bindMediaToggle( link );
+			}
+		}
+	};
+
+	// if unsupported, run the polyfill
+	if( !rp.support() ){
+		// run once at least
+		rp.poly();
+
+		// rerun poly on an interval until onload
+		var run = w.setInterval( rp.poly, 500 );
+		if( w.addEventListener ){
+			w.addEventListener( "load", function(){
+				rp.poly();
+				w.clearInterval( run );
+			} );
+		} else if( w.attachEvent ){
+			w.attachEvent( "onload", function(){
+				rp.poly();
+				w.clearInterval( run );
+			} );
+		}
+	}
+
+
+	// commonjs
+	if( typeof exports !== "undefined" ){
+		exports.loadCSS = loadCSS;
+	}
+	else {
+		w.loadCSS = loadCSS;
+	}
+}( typeof global !== "undefined" ? global : this ) );
+</script>
+
+    <link rel="icon" href="/assets/favicon.ico">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.min.js" as="script">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" as="script">
+    <link rel="preload" href="/scripts/main.js" as="script">
+    <link rel="preload" as="font" href="/font/Oswald-Regular.ttf" crossorigin>
+    <link rel="preload" as="font" href="https://at.alicdn.com/t/font_327081_1dta1rlogw17zaor.woff" crossorigin>
+    
+    <!-- fancybox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" defer></script>
+    <!-- 百度统计  -->
+    
+    <!-- 谷歌统计  -->
+    
+</head>
+
+    
+        <body class="post-body">
+    
+    
+<header class="header">
+
+    <div class="read-progress"></div>
+    <div class="header-sidebar-menu">&#xe775;</div>
+    <!-- post页的toggle banner  -->
+    
+    <div class="banner">
+            <div class="blog-title">
+                <a href="/" >fi3ework&#39;s Studio.</a>
+            </div>
+            <div class="post-title">
+                <a href="#" class="post-name">智齿、「爱死机」、「大川端」和一些迷思</a>
+            </div>
+    </div>
+    
+    <a class="home-link" href=/>fi3ework's Studio.</a>
+</header>
+    <div class="wrapper">
+        <div class="site-intro" style="
+
+
+
+
+
+
+
+height:50vh;
+">
+    
+    <!-- 主页  -->
+    
+    
+    <!-- 404页  -->
+            
+    <div class="site-intro-placeholder"></div>
+    <div class="site-intro-img" style="background-image: url(/intro/post-bg.jpg)"></div>
+    <div class="site-intro-meta">
+        <!-- 标题  -->
+        <h1 class="intro-title">
+            <!-- 主页  -->
+            
+            智齿、「爱死机」、「大川端」和一些迷思
+            <!-- 404 -->
+            
+        </h1>
+        <!-- 副标题 -->
+        <p class="intro-subtitle">
+            <!-- 主页副标题  -->
+            
+            
+            <!-- 404 -->
+            
+        </p>
+        <!-- 文章页meta -->
+        
+            <div class="post-intros">
+                <!-- 文章页标签  -->
+                
+                
+                    <div class="post-intro-read">
+                        <span>字数统计: <span class="post-count word-count">2.3k</span>阅读时长: <span class="post-count reading-time">7 min</span></span>
+                    </div>
+                
+                <div class="post-intro-meta">
+                    <span class="post-intro-calander iconfont-archer">&#xe676;</span>
+                    <span class="post-intro-time">2019/08/11</span>
+                    
+                    <span id="busuanzi_container_page_pv" class="busuanzi-pv">
+                        <span class="iconfont-archer">&#xe602;</span>
+                        <span id="busuanzi_value_page_pv"></span>
+                    </span>
+                    
+                    <span class="shareWrapper">
+                        <span class="iconfont-archer shareIcon">&#xe71d;</span>
+                        <span class="shareText">Share</span>
+                        <ul class="shareList">
+                            <li class="iconfont-archer share-qr" data-type="qr">&#xe75b;
+                                <div class="share-qrcode"></div>
+                            </li>
+                            <li class="iconfont-archer" data-type="weibo">&#xe619;</li>
+                            <li class="iconfont-archer" data-type="qzone">&#xe62e;</li>
+                            <li class="iconfont-archer" data-type="twitter">&#xe634;</li>
+                            <li class="iconfont-archer" data-type="facebook">&#xe67a;</li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
+        
+    </div>
+</div>
+        <script>
+ 
+  // get user agent
+  var browser = {
+    versions: function () {
+      var u = window.navigator.userAgent;
+      return {
+        userAgent: u,
+        trident: u.indexOf('Trident') > -1, //IE内核
+        presto: u.indexOf('Presto') > -1, //opera内核
+        webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+        gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+        mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+        ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+        android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+        iPhone: u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1, //是否为iPhone或者安卓QQ浏览器
+        iPad: u.indexOf('iPad') > -1, //是否为iPad
+        webApp: u.indexOf('Safari') == -1, //是否为web应用程序，没有头部与底部
+        weixin: u.indexOf('MicroMessenger') == -1, //是否为微信浏览器
+        uc: u.indexOf('UCBrowser') > -1 //是否为android下的UC浏览器
+      };
+    }()
+  }
+  console.log("userAgent:" + browser.versions.userAgent);
+
+  // callback
+  function fontLoaded() {
+    console.log('font loaded');
+    if (document.getElementsByClassName('site-intro-meta')) {
+      document.getElementsByClassName('intro-title')[0].classList.add('intro-fade-in');
+      document.getElementsByClassName('intro-subtitle')[0].classList.add('intro-fade-in');
+      var postIntros = document.getElementsByClassName('post-intros')[0]
+      if (postIntros) {
+        postIntros.classList.add('post-fade-in');
+      }
+    }
+  }
+
+  // UC不支持跨域，所以直接显示
+  function asyncCb(){
+    if (browser.versions.uc) {
+      console.log("UCBrowser");
+      fontLoaded();
+    } else {
+      WebFont.load({
+        custom: {
+          families: ['Oswald-Regular']
+        },
+        loading: function () {  //所有字体开始加载
+          // console.log('loading');
+        },
+        active: function () {  //所有字体已渲染
+          fontLoaded();
+        },
+        inactive: function () { //字体预加载失败，无效字体或浏览器不支持加载
+          console.log('inactive: timeout');
+          fontLoaded();
+        },
+        timeout: 5000 // Set the timeout to two seconds
+      });
+    }
+  }
+
+  function asyncErr(){
+    console.warn('script load from CDN failed, will load local script')
+  }
+
+  // load webfont-loader async, and add callback function
+  function async(u, cb, err) {
+    var d = document, t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (cb) { o.addEventListener('load', function (e) { cb(null, e); }, false); }
+    if (err) { o.addEventListener('error', function (e) { err(null, e); }, false); }
+    s.parentNode.insertBefore(o, s);
+  }
+
+  var asyncLoadWithFallBack = function(arr, success, reject) {
+      var currReject = function(){
+        reject()
+        arr.shift()
+        if(arr.length)
+          async(arr[0], success, currReject)
+        }
+
+      async(arr[0], success, currReject)
+  }
+
+  asyncLoadWithFallBack([
+    "https://cdn.jsdelivr.net/npm/webfontloader@1.6.28/webfontloader.min.js", 
+    "https://cdn.bootcss.com/webfont/1.6.28/webfontloader.js",
+    "/lib/webfontloader.min.js"
+  ], asyncCb, asyncErr)
+</script>        
+        <img class="loading" src="/assets/loading.svg" style="display: block; margin: 6rem auto 0 auto; width: 6rem; height: 6rem;" />
+        <div class="container container-unloaded">
+            <main class="main post-page">
+    <article class="article-entry">
+        <p>挖个坑，有空来填。</p>
+<h1 id="一"><a href="#一" class="headerlink" title="一"></a>一</h1><p>「山被表现为一种极度瑰丽而又危险的东西，它被看作是一种宏大的力。它既保我们确认自己的存在，又鼓励我们从自我中逃脱，逃向勇气和死亡。」</p>
+<p>很少对外表现出积极进取的心态，常常自诩「废人」，对事物抱有消极心态，同时用积极态度鼓舞自己，是我将事情做好的方法论。</p>
+<p>what a life<br>2019.3.23</p>
+<h1 id="二-爱、死亡和机器人（LDR"><a href="#二-爱、死亡和机器人（LDR" class="headerlink" title="二   爱、死亡和机器人（LDR)"></a>二   爱、死亡和机器人（LDR)</h1><p>评价什么从来是我最不擅长的一类，但与作者的单向沟通却又令人偏好其中。2019年4月12日，距离这部片子被吹成「神作」过了一个月之久，我决定写下尚存的观点。</p>
+<p>导演之一的蒂姆·米勒，听到这个名字的时候感觉有点耳熟，查了查发现他是《死侍》第一部的导演，但其实他是做CG出身的，不难讲出这三者的关系。之前听podcast的时候被普及到，是机缘巧合促成了《死侍》的诞生。在出演了金刚狼第一部里烂出新天地的死侍后，瑞恩·雷诺兹决定自己筹钱请公司以自己为原型做真人捕捉，拍了一段死侍在公路上打斗跑酷的戏——也就是《死侍》第一部中的开头，这段十几分钟的视频被他自己上传到了youtube，并收获了一致的好评，网民向福斯发出申请希望他们以RR的这款死侍为模板做独立长篇，于是便有了破了一个又一个R级电影记录的超级英雄。</p>
+<p>蒂姆·米勒就是操刀这段短视频和整个《死侍》的CG导演。</p>
+<p>其实国外对这种「先行版」的短片已经是熟视无睹了，其意义在于为刚入行的年轻导演提供一展才华的机会，对于技术的把控和雕琢远胜其故事性。比如被吹上天的「证人」——将时间当做闭环而非无限延展的链，这样的梗简直老到掉渣，但是当用技术为其赋予新生后，所有评论家开始吹嘘其深刻的内涵——生活中无关痛痒的生死blabla..但值得一提的是，这集的导演是索尼《蜘蛛侠：平行宇宙》项目的牵头人之一，但被索尼开掉之后做了这集，用着《蜘蛛侠：平行宇宙》高对比度的色彩和分镜。（这段网感太强，以后改。）</p>
+<p>蒸汽朋克、创造力、「没见过」，只要你想你可为它加上任何标签以表你同媒体一样将它封神，当然也可以刻意站在对立面讽刺资本主义的丑恶嘴脸以表你区别于普罗大众的赤诚之心，但都不应在自己不熟悉的领域讲出这些，甚至言之凿凿。LDR和科幻几乎毫不相干，甚至连主创团队都不敢以「科幻短片」之姿示人，自媒体们又何德何能把这当做科幻巨作来搏眼球？科幻的内核是在虚构环境中暴露的人文情怀，如果硬要说科幻，「帮手」那集断臂求生可以当做物理教材里讲动量的实例了。</p>
+<p>《Zima blue》是我最喜欢的一集，所以不「胡说」。</p>
+<p>我以为「短」才是这片子的精髓，把这些国外社区中常遇见的短视频精加工后投上Netflix，和出国镀金没有本质区别。想必大家称其为「从未见过的神作」也只是因为这剧出色地填充了上下班挤地铁的无聊时间罢了。</p>
+<p>在写这些以前我到豆瓣看了看剧评，发现我根本看不懂他们在讲什么之后便放弃了。赛百味从来不会因为你多看懂了多么深刻隐晦的剧集抑或是去到了未曾触及到的无人深空而为你免费加培根，在现实生活将你剥离的过程中，更不应该把自己存在的价值寄托于这些，共勉。</p>
+<p>另外，LDR确实值得一看，但也别较真，如果你把刷抖音的时间拿来看这，那导演组可是做了一大善事。</p>
+<h1 id="三-智齿"><a href="#三-智齿" class="headerlink" title="三   智齿"></a>三   智齿</h1><p>二月末我拔了智齿，疼，并且看到了自己胖了以后的样子以督促自己好好运动千万别胖。</p>
+<p>哦对了，在输液的时候看了《罗马》，收到了爸爸“以后少看这些东西”的善意提醒。</p>
+<p>没有然后了。（果然我做不了相关行业）</p>
+<p>2019.4.12</p>
+<p>又要拔智齿了，没约好时间只是确定在某个假期而已，说这些是因为我发现在开心的时刻去进行这浸润在半小时「轰鸣声」的旅程中并不会变得upset，只是会变得更开心。</p>
+<p>2019.8.11</p>
+<h1 id="四-《大川端侦探社》、小田切让、深夜剧和我"><a href="#四-《大川端侦探社》、小田切让、深夜剧和我" class="headerlink" title="四   《大川端侦探社》、小田切让、深夜剧和我"></a>四   《大川端侦探社》、小田切让、深夜剧和我</h1><p>大川端这三个字在我看过后的日子里是旗帜般的存在，不是这默默无闻的深夜剧有多么深沉宏伟，而是「大川端侦探社」就是我在另一个维度的存在形式。</p>
+<p>一个个在二维屏幕中展现出的三维深夜，东京老城区浅草下町物语，是这挂着侦探剧旗号的深夜剧出位的主导者。辅以有意设计的自然漏光和粗粝质感，让人想起《路边野餐》般质朴的力量。「无聊的氛围」（这是某报纸的说法）可以借助木村的梦发挥力量，利用他的旁观者身份完成每份荒诞感动的请求。据说原著中木村只是个贪吃嗜睡的懒汉，并没有通过梦境预知夜晚的能力，不得不说是梦境的暧昧质感让整个剧集平添了飘忽的风情，以符合凌晨十二点钟的半个小时连接今明两天的气质。</p>
+<p>我本以为dream pop的迷幻会更能突出《大川端》的浪漫，在木村晌午的梦后响起The Velvet Underground的《Sunday Morning》是我的预设。但EGO-WRAPPIN’搭配昭和歌谣的爵士乐显得灵动跳脱，有别于我以往对爵士乐固有的厚重认知。悠扬的小调配上每剧后所长与小田切在居酒屋的谈话，只需随意置办一个东京小巷，就拾掇起委托人的回忆片段。侦探社的布景中令我印象深刻的就是那幅浮世绘《相马の古内裏》，每个委托人就像召唤出巨大骸骨的泷夜叉姬一样————剥除肉身后的可怖骨架，意味着那些藏于深处的回忆与秘密相互交织、分崩离析，见得天日后作梦归去。</p>
+<p>《大川端侦探社》让最私密的部分扭曲如神谕般降临，把不可触及的部分可视化，再用日本人严谨细致的态度审视后交付于你，这便是我能描述的内容中最美妙的部分了。</p>
+<p><strong>我最希望表现的也是这种不必追求万事万物都掷地有声的实在，而是《大川端》展现的由暧昧碎片终于清澈图像的梦幻。</strong></p>
+<p>在第一次看这部剧前，我甚至没看过什么日剧，更从没听说过小田切让。在去中心化的时候拒绝社交媒体、保持自己的独立审美与出镜要求，和离不开他的深夜剧积木般契合。出挑绝不仅是为了出挑，展现泛意义上的思考才是应该被关注的。</p>
+<p>想起来更新这个是因为在浅草那一天我特地去拜访了《大川端侦探社》的取景地且在路途的地铁上看到了小田切让的广告，那里粗糙陈旧，你能从中望见上世纪七十年代喧哗的场景。我从没想过会因这种机缘巧合而完成这部分内容，也从未想过这个悠长假期里我那载满日期的车子会发生诸多难以预测的直角转弯，困扰的事情是否变得更困扰了？不得不说这些真正影响了我，第一次感到成人世界的烦恼和无奈，那是作为高中生即使被灌进多少箴言也无法理会半分的情绪，能够说出来的只能是「pray and be strong」。</p>
+<p>很抱歉我不能够像木村一样将这些细碎的暧昧的碎片拾起拼成一整块拼图，但我希望有一天会是可以的，所有和我一样「精通」暧昧的你也一样。抱有这样的愿景是因为即便是幻灭，这个夏天也足够美好了。</p>
+<p><strong>The line keeps moving,but I keep stepping over it.</strong></p>
+<p>2019.8.11</p>
+
+    </article>
+    <!-- license  -->
+    
+        <div class="license-wrapper">
+            <p>原文作者：<a href="https://kyrieunderwater42.github.io">kyrie</a>
+            <p>原文链接：<a href="https://kyrieunderwater42.github.io/2019/08/11/挖个坑有空填/">https://kyrieunderwater42.github.io/2019/08/11/挖个坑有空填/</a>
+            <p>发表日期：<a href="https://kyrieunderwater42.github.io/2019/08/11/挖个坑有空填/">August 11th 2019, 2:26:43 am</a>
+            <p>更新日期：<a href="https://kyrieunderwater42.github.io/2019/08/11/挖个坑有空填/">August 11th 2019, 2:26:43 am</a>
+            <p>版权声明：本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可</p>
+        </div>
+    
+    <!-- paginator  -->
+    <ul class="post-paginator">
+        <li class="next">
+            
+                <div class="nextSlogan">Next Post</div>
+                <a href= "/2019/08/20/东京72小时/" title= "东京72小时：「距离以一颗观月的心」">
+                    <div class="nextTitle">东京72小时：「距离以一颗观月的心」</div>
+                </a>
+            
+        </li>
+        <li class="previous">
+            
+                <div class="prevSlogan">Previous Post</div>
+                <a href= "/2019/06/04/写在高考前/" title= "写在高考前">
+                    <div class="prevTitle">写在高考前</div>
+                </a>
+            
+        </li>
+    </ul>
+    <!-- 评论插件 -->
+    <!-- 来必力City版安装代码 -->
+
+<!-- City版安装代码已完成 -->
+    
+    
+    <!-- gitalk评论 -->
+
+    <!-- utteranc评论 -->
+
+    <!-- partial('_partial/comment/changyan') -->
+    <!--PC版-->
+
+
+    
+    
+
+    <!-- 评论 -->
+</main>
+            <!-- profile -->
+            
+        </div>
+        <footer class="footer footer-unloaded">
+    <!-- social  -->
+    
+    <div class="social">
+        
+    
+        
+            
+                <a href="mailto:12345@qq.com" class="iconfont-archer email" title=email ></a>
+            
+        
+    
+        
+            
+                <a href="//github.com/fi3ework" class="iconfont-archer github" target="_blank" title=github></a>
+            
+        
+    
+        
+            
+                <span class="iconfont-archer wechat" title=wechat>
+                  
+                  <img class="profile-qr" src="/assets/example_qr.png" />
+                </span>
+            
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+    </div>
+    
+    <!-- powered by Hexo  -->
+    <div class="copyright">
+        <span id="hexo-power">Powered by <a href="https://hexo.io/" target="_blank">Hexo</a></span><span class="iconfont-archer power">&#xe635;</span><span id="theme-info">theme <a href="https://github.com/fi3ework/hexo-theme-archer" target="_blank">Archer</a></span>
+    </div>
+    <!-- 不蒜子  -->
+    
+    <div class="busuanzi-container">
+    
+     
+    <span id="busuanzi_container_site_pv">PV: <span id="busuanzi_value_site_pv"></span> :)</span>
+    
+    </div>
+    
+</footer>
+    </div>
+    <!-- toc -->
+    
+    <div class="toc-wrapper" style=
+    
+
+
+
+
+
+
+
+top:50vh;
+
+    >
+        <div class="toc-catalog">
+            <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
+        </div>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#一"><span class="toc-number">1.</span> <span class="toc-text">一</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#二-爱、死亡和机器人（LDR"><span class="toc-number">2.</span> <span class="toc-text">二   爱、死亡和机器人（LDR)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#三-智齿"><span class="toc-number">3.</span> <span class="toc-text">三   智齿</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#四-《大川端侦探社》、小田切让、深夜剧和我"><span class="toc-number">4.</span> <span class="toc-text">四   《大川端侦探社》、小田切让、深夜剧和我</span></a></li></ol>
+    </div>
+    
+    <div class="back-top iconfont-archer">&#xe639;</div>
+    <div class="sidebar sidebar-hide">
+    <ul class="sidebar-tabs sidebar-tabs-active-0">
+        <li class="sidebar-tab-archives"><span class="iconfont-archer">&#xe67d;</span><span class="tab-name">Archive</span></li>
+        <li class="sidebar-tab-tags"><span class="iconfont-archer">&#xe61b;</span><span class="tab-name">Tag</span></li>
+        <li class="sidebar-tab-categories"><span class="iconfont-archer">&#xe666;</span><span class="tab-name">Cate</span></li>
+    </ul>
+    <div class="sidebar-content sidebar-content-show-archive">
+          <div class="sidebar-panel-archives">
+    <!-- 在ejs中将archive按照时间排序 -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="total-and-search">
+        <div class="total-archive">
+        Total : 14
+        </div>
+        <!-- search  -->
+        
+    </div>
+    
+    <div class="post-archive">
+    
+    
+    
+    
+    <div class="archive-year"> 2021 </div>
+    <ul class="year-list">
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">01/26</span><a class="archive-post-title" href= "/2021/01/26/为什么不能坚持写博客/" >为什么不能坚持写博客？</a>
+        </li>
+    
+    
+    
+    
+    
+        </ul>
+    
+    <div class="archive-year"> 2020 </div>
+    <ul class="year-list">
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">04/23</span><a class="archive-post-title" href= "/2020/04/23/My Top 10 in 2010s/" >My Top 10 in 2010s</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">01/01</span><a class="archive-post-title" href= "/2020/01/01/2020：月面步行/" >2020：月面步行</a>
+        </li>
+    
+    
+    
+    
+    
+        </ul>
+    
+    <div class="archive-year"> 2019 </div>
+    <ul class="year-list">
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">11/17</span><a class="archive-post-title" href= "/2019/11/17/《路边野餐》和《地球最后的夜晚》和一些梦/" >《路边野餐》和《地球最后的夜晚》和一些梦</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">09/20</span><a class="archive-post-title" href= "/2019/09/20/SummerRotation/" >Summer Rotation</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">08/20</span><a class="archive-post-title" href= "/2019/08/20/东京72小时/" >东京72小时：「距离以一颗观月的心」</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">08/11</span><a class="archive-post-title" href= "/2019/08/11/挖个坑有空填/" >智齿、「爱死机」、「大川端」和一些迷思</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">06/04</span><a class="archive-post-title" href= "/2019/06/04/写在高考前/" >写在高考前</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">02/05</span><a class="archive-post-title" href= "/2019/02/05/8012/" >8012</a>
+        </li>
+    
+    
+    
+    
+    
+        </ul>
+    
+    <div class="archive-year"> 2018 </div>
+    <ul class="year-list">
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">12/31</span><a class="archive-post-title" href= "/2018/12/31/自贩机的温情/" >打破次元壁的「自贩机」</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">12/31</span><a class="archive-post-title" href= "/2018/12/31/雪夕奏鸣曲/" >雪夕奏鸣曲</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">12/31</span><a class="archive-post-title" href= "/2018/12/31/低维之年/" >直面现代：信息过载的低维之年</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">12/29</span><a class="archive-post-title" href= "/2018/12/29/Whiplash/" >《Whiplash》：「爆裂」的未来和有人性的「鼓手」</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">12/29</span><a class="archive-post-title" href= "/2018/12/29/离线的异类/" >Trap001 | 离线的异类</a>
+        </li>
+    
+    </div>
+  </div>
+        <div class="sidebar-panel-tags">
+    <div class="sidebar-tags-name">
+    
+        <span class="sidebar-tag-name" data-tags="日常"><span class="iconfont-archer">&#xe606;</span>日常</span>
+    
+        <span class="sidebar-tag-name" data-tags="电影"><span class="iconfont-archer">&#xe606;</span>电影</span>
+    
+        <span class="sidebar-tag-name" data-tags="Trap"><span class="iconfont-archer">&#xe606;</span>Trap</span>
+    
+    </div>
+    <div class="iconfont-archer sidebar-tags-empty">&#xe678;</div>
+    <div class="tag-load-fail" style="display: none; color: #ccc; font-size: 0.6rem;">
+    缺失模块。<br/>
+    1、请确保node版本大于6.2<br/>
+    2、在博客根目录（注意不是archer根目录）执行以下命令：<br/>
+    <span style="color: #f75357; font-size: 1rem; line-height: 2rem;">npm i hexo-generator-json-content --save</span><br/>
+    3、在根目录_config.yml里添加配置：
+    <pre style="color: #787878; font-size: 0.6rem;">
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: true
+    tags: true</pre>
+    </div> 
+    <div class="sidebar-tags-list"></div>
+</div>
+        <div class="sidebar-panel-categories">
+    <div class="sidebar-categories-name">
+    
+        <span class="sidebar-category-name" data-categories="电影"><span class="iconfont-archer">&#xe60a;</span>电影</span>
+    
+        <span class="sidebar-category-name" data-categories="表达"><span class="iconfont-archer">&#xe60a;</span>表达</span>
+    
+        <span class="sidebar-category-name" data-categories="Trap"><span class="iconfont-archer">&#xe60a;</span>Trap</span>
+    
+    </div>
+    <div class="iconfont-archer sidebar-categories-empty">&#xe678;</div>
+    <div class="sidebar-categories-list"></div>
+</div>
+    </div>
+</div> 
+    <script>
+    var siteMeta = {
+        root: "/",
+        author: "kyrie"
+    }
+</script>
+    <!-- CDN failover -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <script type="text/javascript">
+        if (typeof window.$ === 'undefined')
+        {
+            console.warn('jquery load from jsdelivr failed, will load local script')
+            document.write('<script src="/lib/jquery.min.js">\x3C/script>')
+        }
+    </script>
+    <script src="/scripts/main.js"></script>
+    <!-- algolia -->
+    
+    <!-- busuanzi  -->
+    
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+    <!-- CNZZ  -->
+    
+    </div>
+    <!-- async load share.js -->
+    
+        <script src="/scripts/share.js" async></script>    
+     
+    </body>
+</html>
+
+
